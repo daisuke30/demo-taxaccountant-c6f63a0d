@@ -3,278 +3,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="広島の藤井嘉人税理士事務所。法人税務、個人確定申告、相続税対策まで、経験豊富な税理士があなたのビジネスをサポートします。">
-    <title>藤井嘉人税理士事務所 | 広島の税理士事務所</title>
-
-    <!-- Google Fonts -->
+    <title>藤井嘉人税理士事務所 | 広島で65年以上の実績、DX化も支援する地域密着事務所</title>
+    <meta name="description" content="広島で65年以上の実績を持つ藤井嘉人税理士事務所。TKC会員事務所として税務・会計から創業支援、DX化支援まで幅広くサポート。お客様との末永いお付き合いを大切にする地域密着の税理士事務所です。">
+    <meta name="keywords" content="税理士,広島,税務,会計,創業支援,DX化,TKC,藤井嘉人">
+    
+    <!-- OGP -->
+    <meta property="og:title" content="藤井嘉人税理士事務所 | 広島で65年以上の実績、DX化も支援する地域密着事務所">
+    <meta property="og:description" content="広島で65年以上の実績を持つ藤井嘉人税理士事務所。TKC会員事務所として税務・会計から創業支援、DX化支援まで幅広くサポート。">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* CSS will be inserted here */
+    </style>
 </head>
 <body>
-    <!-- ヘッダー -->
-    <header class="header" id="header">
+    <!-- Header -->
+    <header class="header">
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <i class="fas fa-calculator"></i>
-                    <span>藤井嘉人税理士事務所</span>
+                    <h1>藤井嘉人税理士事務所</h1>
                 </div>
-                <nav class="nav" id="nav">
-                    <ul class="nav-list">
-                        <li><a href="#hero" class="nav-link">ホーム</a></li>
-                        <li><a href="#services" class="nav-link">サービス</a></li>
-                        <li><a href="#strengths" class="nav-link">選ばれる理由</a></li>
-                        <li><a href="#pricing" class="nav-link">料金</a></li>
-                        <li><a href="#about" class="nav-link">事務所概要</a></li>
+                <nav class="nav desktop-nav">
+                    <ul>
+                        <li><a href="#home">ホーム</a></li>
+                        <li><a href="#services">サービス</a></li>
+                        <li><a href="#reasons">選ばれる理由</a></li>
+                        <li><a href="#pricing">料金</a></li>
+                        <li><a href="#office">事務所概要</a></li>
                     </ul>
                 </nav>
-                <div class="header-actions">
-                    <a href="tel:03-0000-0000" class="header-phone">
+                <div class="header-contact">
+                    <a href="tel:082-295-1881" class="phone-link">
                         <i class="fas fa-phone"></i>
-                        <span>03-0000-0000</span>
+                        082-295-1881
                     </a>
-                    <a href="#contact" class="btn btn-primary">お問い合わせ</a>
+                    <a href="#contact" class="cta-button">お問い合わせ</a>
                 </div>
-                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <button class="mobile-menu-toggle">
                     <span></span>
                     <span></span>
                     <span></span>
                 </button>
             </div>
         </div>
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#services">サービス</a></li>
+                <li><a href="#reasons">選ばれる理由</a></li>
+                <li><a href="#pricing">料金</a></li>
+                <li><a href="#office">事務所概要</a></li>
+                <li><a href="tel:082-295-1881">電話する</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- ヒーローセクション -->
-    <section class="hero" id="hero">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
         <div class="hero-overlay"></div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">
-                    <span class="hero-title-small">広島で選ばれる</span>
-                    経営者に寄り添う税理士
-                </h1>
-                <p class="hero-subtitle">
-                    税務・会計のプロフェッショナルとして、<br class="mobile-break">
-                    お客様のビジネスの成長をサポートします
-                </p>
-                <div class="hero-actions">
-                    <a href="#contact" class="btn btn-primary btn-large">
-                        <i class="fas fa-envelope"></i>
-                        無料相談を申し込む
-                    </a>
-                    <a href="tel:03-0000-0000" class="btn btn-secondary btn-large">
+                <h2 class="hero-title">広島で65年以上の実績<br>DX化も支援する地域密着事務所</h2>
+                <p class="hero-subtitle">お客様との末永いお付き合いを大切にし、創業から事業承継まで一貫してご支援する税理士事務所です</p>
+                <div class="hero-cta">
+                    <a href="tel:082-295-1881" class="cta-button primary">
                         <i class="fas fa-phone"></i>
-                        03-0000-0000
+                        今すぐ相談する
                     </a>
+                    <a href="#contact" class="cta-button secondary">お問い合わせ</a>
                 </div>
                 <div class="hero-features">
-                    <div class="hero-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>初回相談無料</span>
+                    <div class="feature">
+                        <i class="fas fa-award"></i>
+                        <span>65年以上の実績</span>
                     </div>
-                    <div class="hero-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>土日対応可</span>
+                    <div class="feature">
+                        <i class="fas fa-digital-tachograph"></i>
+                        <span>DX化支援</span>
                     </div>
-                    <div class="hero-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <span>オンライン対応</span>
+                    <div class="feature">
+                        <i class="fas fa-handshake"></i>
+                        <span>地域密着</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- サービス紹介 -->
-    <section class="services" id="services">
+    <!-- Services Section -->
+    <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">サービス内容</h2>
-                <p class="section-subtitle">お客様のニーズに合わせた、幅広いサービスをご提供します</p>
+                <h2>主要サービス</h2>
+                <p>お客様のニーズに合わせた幅広いサービスを提供しています</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-building"></i>
+                        <i class="fas fa-calculator"></i>
                     </div>
-                    <h3 class="service-title">法人税務顧問</h3>
-                    <p class="service-description">
-                        月次決算から税務申告まで、法人経営に必要な税務・会計業務を包括的にサポート。経営アドバイスも行います。
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> 月次決算・財務分析</li>
-                        <li><i class="fas fa-check"></i> 税務申告書作成</li>
-                        <li><i class="fas fa-check"></i> 税務調査対応</li>
-                        <li><i class="fas fa-check"></i> 経営相談</li>
-                    </ul>
+                    <h3>税務・会計</h3>
+                    <p>法人・個人の税務申告から日常の会計業務まで幅広くサポート。TKC会員事務所として信頼性の高いサービスを提供します。</p>
                 </div>
-
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-user"></i>
+                        <i class="fas fa-rocket"></i>
                     </div>
-                    <h3 class="service-title">個人確定申告</h3>
-                    <p class="service-description">
-                        個人事業主、フリーランスの方の確定申告を代行。節税対策もご提案いたします。
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> 所得税確定申告</li>
-                        <li><i class="fas fa-check"></i> 消費税申告</li>
-                        <li><i class="fas fa-check"></i> 青色申告サポート</li>
-                        <li><i class="fas fa-check"></i> 節税対策</li>
-                    </ul>
+                    <h3>創業支援</h3>
+                    <p>起業時の各種手続きから事業計画策定まで創業を総合的に支援。新しいビジネスの成功をお手伝いします。</p>
                 </div>
-
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-handshake"></i>
+                        <i class="fas fa-laptop-code"></i>
                     </div>
-                    <h3 class="service-title">会社設立支援</h3>
-                    <p class="service-description">
-                        起業・開業をお考えの方へ、会社設立手続きから創業融資、補助金申請までトータルサポート。
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> 設立手続き代行</li>
-                        <li><i class="fas fa-check"></i> 創業融資サポート</li>
-                        <li><i class="fas fa-check"></i> 補助金・助成金申請</li>
-                        <li><i class="fas fa-check"></i> 事業計画書作成</li>
-                    </ul>
+                    <h3>DX化支援</h3>
+                    <p>会計・給与・販売管理システム導入でIT導入補助金活用も支援。業務効率化と生産性向上を実現します。</p>
                 </div>
-
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-heart"></i>
                     </div>
-                    <h3 class="service-title">相続税対策</h3>
-                    <p class="service-description">
-                        相続税申告、事業承継、生前贈与など、相続に関する幅広いご相談に対応いたします。
-                    </p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check"></i> 相続税申告</li>
-                        <li><i class="fas fa-check"></i> 事業承継対策</li>
-                        <li><i class="fas fa-check"></i> 生前贈与プラン</li>
-                        <li><i class="fas fa-check"></i> 相続税シミュレーション</li>
-                    </ul>
+                    <h3>社会福祉法人会計</h3>
+                    <p>社会福祉法人会計における豊富な経験と専門的なサポートを提供。複雑な会計処理も安心してお任せください。</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 選ばれる理由 -->
-    <section class="strengths" id="strengths">
+    <!-- Reasons Section -->
+    <section id="reasons" class="reasons">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">藤井嘉人税理士事務所が選ばれる理由</h2>
-                <p class="section-subtitle">お客様から信頼される3つの強み</p>
+                <h2>選ばれる理由</h2>
+                <p>多くのお客様から信頼をいただく3つの理由</p>
             </div>
-            <div class="strengths-grid">
-                <div class="strength-card">
-                    <div class="strength-number">01</div>
-                    <div class="strength-icon">
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-number">01</div>
+                    <div class="reason-icon">
                         <i class="fas fa-comments"></i>
                     </div>
-                    <h3 class="strength-title">丁寧なコミュニケーション</h3>
-                    <p class="strength-description">
-                        専門用語を使わず、わかりやすく説明します。些細な疑問でもお気軽にご相談ください。レスポンスも迅速で、メール・電話・オンライン面談など、お客様のご都合に合わせて対応いたします。
-                    </p>
+                    <h3>緊密な連携とタイムリーな情報提供</h3>
+                    <p>お客様との密接なコミュニケーションを重視し、適切なタイミングで必要な情報をお届けします。</p>
                 </div>
-                <div class="strength-card">
-                    <div class="strength-number">02</div>
-                    <div class="strength-icon">
-                        <i class="fas fa-chart-line"></i>
+                <div class="reason-card">
+                    <div class="reason-number">02</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-building"></i>
                     </div>
-                    <h3 class="strength-title">経営サポート力</h3>
-                    <p class="strength-description">
-                        単なる記帳代行や税務申告だけでなく、経営者のパートナーとして財務分析、資金繰り改善、事業拡大のアドバイスを提供。お客様の事業の成長をサポートします。
-                    </p>
+                    <h3>地域密着65年以上の実績</h3>
+                    <p>長年にわたり広島地域に根差したサービスで信頼と実績を積み重ね、多くのお客様にご愛顧いただいています。</p>
                 </div>
-                <div class="strength-card">
-                    <div class="strength-number">03</div>
-                    <div class="strength-icon">
-                        <i class="fas fa-yen-sign"></i>
+                <div class="reason-card">
+                    <div class="reason-number">03</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-bolt"></i>
                     </div>
-                    <h3 class="strength-title">明確な料金体系</h3>
-                    <p class="strength-description">
-                        ご契約前に料金を明示し、追加費用の心配がありません。売上規模に応じた適正価格で、スタートアップから大企業まで柔軟に対応いたします。
-                    </p>
+                    <h3>最新システムとフットワークの軽さ</h3>
+                    <p>TKC会員事務所として最新システムを提供し、迅速な対応でお客様のビジネスをサポートします。</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 料金プラン -->
-    <section class="pricing" id="pricing">
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">料金プラン</h2>
-                <p class="section-subtitle">シンプルで分かりやすい料金体系</p>
+                <h2>料金プラン</h2>
+                <p>お客様の規模とニーズに合わせた料金設定</p>
             </div>
-            <div class="pricing-table-wrapper">
-                <table class="pricing-table">
-                    <thead>
-                        <tr>
-                            <th>サービス内容</th>
-                            <th>月額料金（税別）</th>
-                            <th>備考</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>法人税務顧問（年商1,000万円未満）</td>
-                            <td class="price">20,000円〜</td>
-                            <td>記帳代行・月次決算・年末調整含む</td>
-                        </tr>
-                        <tr>
-                            <td>法人税務顧問（年商1,000万〜3,000万円）</td>
-                            <td class="price">30,000円〜</td>
-                            <td>記帳代行・月次決算・年末調整含む</td>
-                        </tr>
-                        <tr>
-                            <td>法人税務顧問（年商3,000万〜5,000万円）</td>
-                            <td class="price">40,000円〜</td>
-                            <td>記帳代行・月次決算・年末調整含む</td>
-                        </tr>
-                        <tr>
-                            <td>個人確定申告（白色申告）</td>
-                            <td class="price">50,000円〜</td>
-                            <td>年1回のスポット対応</td>
-                        </tr>
-                        <tr>
-                            <td>個人確定申告（青色申告）</td>
-                            <td class="price">80,000円〜</td>
-                            <td>年1回のスポット対応</td>
-                        </tr>
-                        <tr>
-                            <td>会社設立サポート</td>
-                            <td class="price">100,000円〜</td>
-                            <td>定款作成・登記手続き含む</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="pricing-table">
+                <div class="pricing-card">
+                    <h3>スタートアップ</h3>
+                    <div class="price">
+                        <span class="amount">月額 30,000円</span>
+                        <span class="tax">（税込33,000円）〜</span>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i>記帳代行</li>
+                        <li><i class="fas fa-check"></i>月次決算</li>
+                        <li><i class="fas fa-check"></i>税務相談</li>
+                        <li><i class="fas fa-check"></i>年末調整</li>
+                    </ul>
+                    <p class="plan-description">創業間もない企業様向けの基本プラン</p>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">人気</div>
+                    <h3>スタンダード</h3>
+                    <div class="price">
+                        <span class="amount">月額 50,000円</span>
+                        <span class="tax">（税込55,000円）〜</span>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i>記帳代行</li>
+                        <li><i class="fas fa-check"></i>月次決算</li>
+                        <li><i class="fas fa-check"></i>税務相談</li>
+                        <li><i class="fas fa-check"></i>年末調整</li>
+                        <li><i class="fas fa-check"></i>給与計算</li>
+                        <li><i class="fas fa-check"></i>経営相談</li>
+                    </ul>
+                    <p class="plan-description">中小企業様に最適なバランス型プラン</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>プレミアム</h3>
+                    <div class="price">
+                        <span class="amount">月額 80,000円</span>
+                        <span class="tax">（税込88,000円）〜</span>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i>記帳代行</li>
+                        <li><i class="fas fa-check"></i>月次決算</li>
+                        <li><i class="fas fa-check"></i>税務相談</li>
+                        <li><i class="fas fa-check"></i>年末調整</li>
+                        <li><i class="fas fa-check"></i>給与計算</li>
+                        <li><i class="fas fa-check"></i>経営相談</li>
+                        <li><i class="fas fa-check"></i>DX化支援</li>
+                        <li><i class="fas fa-check"></i>事業承継相談</li>
+                    </ul>
+                    <p class="plan-description">成長企業様向けの充実サポートプラン</p>
+                </div>
             </div>
-            <p class="pricing-note">
-                ※ 料金は目安です。業種・取引量により変動する場合があります。<br>
-                ※ 初回相談は無料です。お気軽にお問い合わせください。
-            </p>
+            <div class="pricing-note">
+                <p><i class="fas fa-info-circle"></i> 料金は企業規模や取引量により変動いたします。まずはお気軽にご相談ください。</p>
+                <a href="tel:082-295-1881" class="cta-button">
+                    <i class="fas fa-phone"></i>
+                    料金について相談する
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- 事務所概要 -->
-    <section class="about" id="about">
+    <!-- Office Section -->
+    <section id="office" class="office">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">事務所概要</h2>
-                <p class="section-subtitle">お気軽にお問い合わせください</p>
+                <h2>事務所概要</h2>
+                <p>お気軽にお越しください</p>
             </div>
-            <div class="about-content">
-                <div class="about-info">
+            <div class="office-content">
+                <div class="office-info">
                     <div class="info-item">
                         <div class="info-icon">
                             <i class="fas fa-building"></i>
@@ -290,7 +268,7 @@
                         </div>
                         <div class="info-details">
                             <h4>所在地</h4>
-                            <p>〒733-0035 広島県広島市西区南観音1丁目5番45号</p>
+                            <p>〒733-0035<br>広島県広島市西区南観音1丁目5番45号</p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -299,7 +277,7 @@
                         </div>
                         <div class="info-details">
                             <h4>電話番号</h4>
-                            <p><a href="tel:03-0000-0000">03-0000-0000</a></p>
+                            <p><a href="tel:082-295-1881">082-295-1881</a></p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -308,152 +286,162 @@
                         </div>
                         <div class="info-details">
                             <h4>営業時間</h4>
-                            <p>平日 9:00〜18:00<br>（土日祝日は事前予約制）</p>
+                            <p>平日 9:00-17:00<br>（土日祝日は休業）</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <div class="info-icon">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-map"></i>
                         </div>
                         <div class="info-details">
-                            <h4>メール</h4>
-                            <p>info@example.com</p>
+                            <h4>対応地域</h4>
+                            <p>広島市を中心とした広島県内</p>
                         </div>
                     </div>
                 </div>
-                <div class="about-map">
-                    <div class="map-placeholder">
-                        <i class="fas fa-map-marked-alt"></i>
-                        <p>広島</p>
-                    </div>
+                <div class="office-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.7234567890123!2d132.4234567890123!3d34.3912345678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5bqD5bO25biC6KW_5Yy65Y2X6Kaz6Z-zMeS4geebruM!5e0!3m2!1sja!2sjp!4v1234567890123" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- お問い合わせCTA -->
-    <section class="contact" id="contact">
+    <!-- Contact CTA Section -->
+    <section id="contact" class="contact-cta">
         <div class="container">
-            <div class="contact-box">
-                <h2 class="contact-title">無料相談を承っております</h2>
-                <p class="contact-description">
-                    税務・会計に関するお悩みは、まずはお気軽にご相談ください。<br>
-                    初回相談は無料です。お電話またはメールにてお問い合わせください。
-                </p>
-                <div class="contact-actions">
-                    <a href="tel:03-0000-0000" class="btn btn-primary btn-large">
-                        <i class="fas fa-phone"></i>
-                        電話で相談する
-                        <span class="contact-phone-number">03-0000-0000</span>
+            <div class="contact-content">
+                <h2>まずはお気軽にご相談ください</h2>
+                <p>税務・会計のことなら何でもお任せください。初回相談は無料です。</p>
+                <div class="contact-methods">
+                    <a href="tel:082-295-1881" class="contact-method phone">
+                        <div class="method-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="method-info">
+                            <h3>お電話でのご相談</h3>
+                            <p class="phone-number">082-295-1881</p>
+                            <p class="method-time">平日 9:00-17:00</p>
+                        </div>
                     </a>
-                    <a href="mailto:info@example.com" class="btn btn-secondary btn-large">
-                        <i class="fas fa-envelope"></i>
-                        メールで相談する
+                    <a href="mailto:info@fujii-tax.jp" class="contact-method email">
+                        <div class="method-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="method-info">
+                            <h3>メールでのお問い合わせ</h3>
+                            <p class="email-address">info@fujii-tax.jp</p>
+                            <p class="method-time">24時間受付</p>
+                        </div>
                     </a>
-                </div>
-                <div class="contact-hours">
-                    <i class="fas fa-clock"></i>
-                    受付時間: 平日 9:00〜18:00（土日祝日は事前予約制）
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- フッター -->
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <i class="fas fa-calculator"></i>
-                    <span>藤井嘉人税理士事務所</span>
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <h3>藤井嘉人税理士事務所</h3>
+                        <p>広島で65年以上の実績、DX化も支援する地域密着事務所</p>
+                    </div>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>〒733-0035 広島県広島市西区南観音1丁目5番45号</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:082-295-1881">082-295-1881</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>平日 9:00-17:00</span>
+                        </div>
+                    </div>
                 </div>
-                <nav class="footer-nav">
-                    <a href="#hero">ホーム</a>
-                    <a href="#services">サービス</a>
-                    <a href="#strengths">選ばれる理由</a>
-                    <a href="#pricing">料金</a>
-                    <a href="#about">事務所概要</a>
-                    <a href="#contact">お問い合わせ</a>
-                </nav>
-                <div class="footer-contact">
-                    <p><i class="fas fa-map-marker-alt"></i> 〒733-0035 広島県広島市西区南観音1丁目5番45号</p>
-                    <p><i class="fas fa-phone"></i> <a href="tel:03-0000-0000">03-0000-0000</a></p>
-                    <p><i class="fas fa-envelope"></i> info@example.com</p>
+                <div class="footer-nav">
+                    <div class="nav-column">
+                        <h4>サービス</h4>
+                        <ul>
+                            <li><a href="#services">税務・会計</a></li>
+                            <li><a href="#services">創業支援</a></li>
+                            <li><a href="#services">DX化支援</a></li>
+                            <li><a href="#services">社会福祉法人会計</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-column">
+                        <h4>事務所情報</h4>
+                        <ul>
+                            <li><a href="#reasons">選ばれる理由</a></li>
+                            <li><a href="#pricing">料金プラン</a></li>
+                            <li><a href="#office">事務所概要</a></li>
+                            <li><a href="#contact">お問い合わせ</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 藤井嘉人税理士事務所. All rights reserved.</p>
+                <p>&copy; 2025 藤井嘉人税理士事務所. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
     <script>
-        // スムーズスクロール
+        // Mobile menu toggle
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const mobileNav = document.querySelector('.mobile-nav');
+        const body = document.body;
+
+        mobileMenuToggle.addEventListener('click', () => {
+            mobileMenuToggle.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            body.classList.toggle('menu-open');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav a');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuToggle.classList.remove('active');
+                mobileNav.classList.remove('active');
+                body.classList.remove('menu-open');
+            });
+        });
+
+        // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    const headerOffset = 80;
-                    const elementPosition = target.getBoundingClientRect().top;
-                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
+                    const headerHeight = document.querySelector('.header').offsetHeight;
+                    const targetPosition = target.offsetTop - headerHeight;
                     window.scrollTo({
-                        top: offsetPosition,
+                        top: targetPosition,
                         behavior: 'smooth'
                     });
-
-                    // モバイルメニューを閉じる
-                    if (window.innerWidth <= 768) {
-                        nav.classList.remove('active');
-                        mobileMenuToggle.classList.remove('active');
-                    }
                 }
             });
         });
 
-        // ヘッダー固定効果
-        const header = document.getElementById('header');
-        let lastScroll = 0;
-
+        // Header scroll effect
         window.addEventListener('scroll', () => {
-            const currentScroll = window.pageYOffset;
-
-            if (currentScroll > 100) {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
                 header.classList.add('scrolled');
             } else {
                 header.classList.remove('scrolled');
             }
-
-            lastScroll = currentScroll;
-        });
-
-        // モバイルメニュートグル
-        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
-        const nav = document.getElementById('nav');
-
-        mobileMenuToggle.addEventListener('click', () => {
-            nav.classList.toggle('active');
-            mobileMenuToggle.classList.toggle('active');
-        });
-
-        // スクロールアニメーション
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.service-card, .strength-card').forEach(el => {
-            observer.observe(el);
         });
     </script>
 </body>
